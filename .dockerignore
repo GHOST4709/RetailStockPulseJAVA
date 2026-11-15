@@ -1,0 +1,8 @@
+.git
+.github
+.vercel
+.vscode
+target
+*.log
+*.iml
+.DS_Store
