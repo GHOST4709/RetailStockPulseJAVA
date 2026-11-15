@@ -12,10 +12,7 @@ import com.sun.net.httpserver.HttpHandler;
 import java.io.IOException;
 import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.*;
 
 public class ApiHandler implements HttpHandler {
     private final ApiController controller;

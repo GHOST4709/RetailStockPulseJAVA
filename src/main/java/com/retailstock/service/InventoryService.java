@@ -1,5 +1,4 @@
 package com.retailstock.service;
-
 import com.retailstock.dto.ProductRequest;
 import com.retailstock.dto.SaleRequest;
 import com.retailstock.dto.TransactionRequest;
@@ -17,13 +16,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class InventoryService {
